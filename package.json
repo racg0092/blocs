@@ -1,0 +1,19 @@
+{
+  "name": "blocs",
+  "version": "0.0.0",
+  "description": "Fun and useful web components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Web",
+    "Components",
+    "Library"
+  ],
+  "author": "Richard Chapman Gomez",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
