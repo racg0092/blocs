@@ -3,7 +3,7 @@
 
 type attr = 'drag' | 'resize';
 
-class Bloc extends HTMLElement {
+class DragRiseze extends HTMLElement {
     #template = document.createElement('template');
     #innerHTML = `
         <style>
@@ -103,6 +103,7 @@ class Bloc extends HTMLElement {
     }
 
 
+    //todo: make optional
     resizableFunc() {
         let startW, startH, startX, startY;
         const that = this;
@@ -141,6 +142,6 @@ class Bloc extends HTMLElement {
 
 
 
-if(!customElements.get('bloc-wc')) {
-    customElements.define('bloc-wc', Bloc);
+if(!customElements.get('bloc-drag')) {
+    customElements.define('bloc-drag', DragRiseze);
 }
