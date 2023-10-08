@@ -14,7 +14,6 @@ export class SideMenu extends HTMLElement {
                 position: absolute;
                 width: var(--panel-w, max-content);
                 height: 100vh;
-                top:0;
                 left:0;
             }
             div.container {

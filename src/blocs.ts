@@ -17,3 +17,9 @@ addColorValues();
 import './bloc-drag.component';
 import './top-menu.component';
 import './side-menu.component'
+import './top-side-menu.component'
+import  { PopUp } from  './pop-up.component';
+
+
+const popup = PopUp.open("Hello World", 'c-bottom')
+

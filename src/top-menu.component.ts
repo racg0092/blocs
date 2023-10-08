@@ -1,7 +1,7 @@
 import { theme_watcher } from './utils/events.utils';
 
 
-class TopMenu extends HTMLElement  {
+export class TopMenu extends HTMLElement  {
     #template = document.createElement('template');
     #html = `
         <style> 
