@@ -6,13 +6,6 @@ class TopMenu extends HTMLElement  {
     #html = `
         <style> 
             :host {
-                --nord0: #2E3440;
-                --nord1: #3B4252;
-                --nord2: #434c5e;
-                --nord3: #4C566A;
-                --nord4: #ECEFF4;
-                --nord5: #E5E9F0;
-                --nord6: #D8DEE9;
                 position: var(--position, absolute);
                 top: 0;
                 left:0;
@@ -56,9 +49,6 @@ class TopMenu extends HTMLElement  {
 
 
     connectedCallback() {
-        console.log('online')
-        
-
         theme_watcher.funcs.push((theme) => this.onModeChange(theme));
     }
 
